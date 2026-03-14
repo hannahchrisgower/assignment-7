@@ -16,7 +16,7 @@ for (let i = 0; i < favoritefoods.length; i++) {
 // "My #2 favorite food is Sushi"
 // ...etc.
 for (let i = 0; i < favoritefoods.length; i++) {
-  console.log("My #" + 1+i + "favorit food is " + favoritefoods[i])
+  console.log("My #" + (1+i) + "favorit food is " + favoritefoods[i])
 }
 
 
