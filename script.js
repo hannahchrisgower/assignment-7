@@ -46,7 +46,7 @@ let friendFavorites = [
   ];
 
 // 5. Print out only foods that have an "a" in the name. For example, "Pizza" would not be included, but "Donuts" would be.
-
+console.log(friendFavorites.includes("A", "a"))
 
 
 // 6. Store the result in an array called foodsWithA. Print out the array.
