@@ -5,7 +5,7 @@ let favoritefoods = ["Sushi", "Apples", "Fried Pickles", "Bao Buns", "Chocolate"
 
 // 2. Loop through the list and print: "One of my favorite foods is ______."
 for (let i = 0; i < favoritefoods.length; i++) {
-  console.log("One of my favorite foods is " + favoritefoods[i])
+  console.log("One of my favorite foods is " + favoritefoods[i]);
 }
 
 
@@ -16,7 +16,7 @@ for (let i = 0; i < favoritefoods.length; i++) {
 // "My #2 favorite food is Sushi"
 // ...etc.
 for (let i = 0; i < favoritefoods.length; i++) {
-  console.log("My #" + (1+i) + "favorit food is " + favoritefoods[i])
+  console.log("My #" + (1+i) + " favorite food is " + favoritefoods[i]);
 }
 
 
@@ -26,12 +26,18 @@ for (let i = 0; i < favoritefoods.length; i++) {
     // "Have you ever tried ____?"
     // "I always recommend ____ to friends."
     // "Trust me — ____ is delicious."
-
+function printFoodRecommendation(foodName) {
+  console.log("Have you ever tried " + foodName + "?");
+  console.log("I always recommend " + foodName + " to friends.");
+  console.log("Trust me — " + foodName + " is delicious.")
+}
 
 
 
 // 4b. Call the function at least 3 times
-
+printFoodRecommendation("Sushi")
+printFoodRecommendation("Baked Ziti")
+printFoodRecommendation("Pad Thai")
 
 
 // Here's a list of 50 friends' favorite foods:
