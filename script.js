@@ -67,7 +67,7 @@ for (let i = 0; i < friendFavorites.length; i++) {
     foodsWithA.push(friendFavorites[i])
    }
 }
-
+console.log(foodsWithA)
 // 7. Create a new array longFoodNames for foods with names longer than 6 characters.
 
 
