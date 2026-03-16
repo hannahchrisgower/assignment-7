@@ -97,3 +97,12 @@ if (longFoodNames.length > shortFoodNames.length) {
 
 // 10. STRETCH: Find the longest food name and print:
 // "The longest food name in the list is ______ with ___ characters."
+let longestFood = ""
+let candidateFood = ""
+for (let i = 0; i < friendFavorites.length; i++) {
+  candidateFood = friendFavorites[i]
+  if (candidateFood.length > longestFood.length) {
+    longestFood = friendFavorites[i]
+  }
+}
+console.log("The longest food name in the list is " + longestFood + " with " + longestFood.length + " characters.")
